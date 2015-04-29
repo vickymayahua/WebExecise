@@ -1,0 +1,38 @@
+.parentcenter{
+	float: left;
+	position: relative;
+	left: 50%;/*距离left的为父标签的50%*/
+	
+	background-color: red;
+}
+.childcenter{
+	float: left;
+	position: relative;
+	border: 3px solid blue;
+	left: -50%;/*相对于自己原来的位置向左移动了 父标签的50%*/
+	background-color: green;
+	color: blue;
+
+}
+.onetwo{
+	height: 100px;
+	width: 500px;
+	background: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -50px 0 0 -400px;
+	/*上（此处为高的一半）右下左*/
+/*margin在绝对定位中，已经脱离文档流，详见保存的网页*/
+/*-400 = -250 + (-150)*/
+}
+.twotwo{
+	position:absolute;
+	background: blue;
+	width: 300px;
+	height: 100px;
+	left: 50%;
+	top: 50%;
+	margin: -50px 0 0 100px;
+	/*50% + 100px = 50% -400px +500px */
+}

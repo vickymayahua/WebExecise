@@ -1,0 +1,8 @@
+git init   初始化                              (.git)
+git  status     查看状态
+
+git add .              (git add 1.txt)
+
+git commit -m "fasfa"
+
+git checkout .        git checkout 1.txt

@@ -1,0 +1,67 @@
+<!-- 水平居中 -->
+<!-- 行內元素居中只需在父元素中設置text-align即可 -->
+<head>
+	<meta charset = "utf-8">
+	<title>居中设计</title>
+	<link href = "test1.css" rel = "stylesheet" type = "text/css">
+</head>
+<div class="father">
+<p class="blockCenter">在父本中设置text-align</p>
+</div>
+<!-- table居中 -->
+<table class="tableclass">
+<tr>
+<td>
+<ul class="ulclass">
+<li><a href="#">呵</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<table class="tableclass">
+<tr>
+<td>
+<ul class="ulclass">
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<table class="tableclass">
+<tr>
+<td>
+<ul class="ulclass">
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+<li><a href="#">呵</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<!-- 將塊級元素變為行內元素在居中 -->
+<ul style="{text-align: center}">
+<li style="{display: inline}">nihao </li>
+</ul>
+<!-- 利用相對佈局 -->
+<ul class="relativeCenterFather">
+<li class="relativeCenterChild">你好 </li>
+</ul>
+<!-- 豎直居中-->
+<!-- 1.設置相同的上下padding -->
+<!-- 2.父元素height和line-height相同 -->
+<hr />
+<div style={background:#000;width:500px;color:#fff;line-height:100px;text-align:center}>
+我要來場說走就走的旅行
+</div>
+<!--3. vartical-align,這屬性只對tr,td起作用 -->
+<table>
+<tr verticla-align="center" height="100" background="#FF00FF">
+<td>一弦一柱思華年</td>
+</tr>
+</table>

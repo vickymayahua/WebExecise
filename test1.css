@@ -1,0 +1,71 @@
+.father
+{
+width:1000px;
+background: blue;
+}
+.blockCenter
+{
+width:400px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;/*这里表示该块中的字符居中*/
+background: red;
+}
+/*以上两个是块中块，只需要auto*/
+.inlineCenter
+{
+text-align:center;
+float:left;
+}
+.tableclass
+{
+border: 1px solid red;
+margin-left:auto;
+margin-right:auto;
+background: blue;
+}
+.ulclass
+{
+list-style:none;
+margin:0;
+padding:0;
+}
+.ulclass li
+{
+float:left;/*块级元素，float使得块紧挨着*/
+display:inline;
+text-align:center;
+}
+.ulclass li a
+{
+text-align:center;
+float:left;
+background:#316AC5;
+color:#fff;
+}
+.ulclass li a:hover
+{
+background:#fff;
+color:#316AC5;
+}
+.relativeCenterFather
+{
+float:left;
+position:relative;
+left:50%
+}
+.relativeCenterChild
+{
+float:left;
+position:relative;
+left:-50%;
+}
+/* 豎直居中*/
+.wrap
+{
+background:#000;
+width:500px;
+color:#fff;
+height:100px;
+line-height:100px;
+}
